@@ -4,6 +4,7 @@ Repositorio con los programas pertinentes para la simulación de un condensado d
 - Split-Step Simetrizado
 - Operadores simplécticos de orden 4
 - Runge-Kutta de orden 4 en imagen de interacción
+  
 La simulación de un BEC se ha realizado con dos implementaciones diferentes:
 - Cálculo de errores del método RK4IP
 - Confirmación de las oscilaciones de forma mediante todos los métodos previamente mencionados
