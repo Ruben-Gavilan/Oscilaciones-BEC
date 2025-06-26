@@ -10,6 +10,6 @@ La simulación de un BEC se ha realizado con dos implementaciones diferentes:
 - Confirmación de las oscilaciones de forma mediante todos los métodos previamente mencionados
 
 ## Modo de empleo:
-Ejecutar el programa principal situado en el directorio de la implementación concreta que se quiera realizar, por ejemplo:
+Copiar el repositorio en tu equipo, ya sea clonando el repositorio entero mediante `git clone enlace`, o descargando las carpetas manualmente. Seguidamente ejecutar el programa principal situado en el directorio de la implementación concreta que se quiera realizar, por ejemplo:
 Para realizar el cálculo de errores abrir el directorio "Calculo_Error" y ejecutar el programa principal "Principal.jl" mediante el intérprete de Julia, es decir:
 `julia> include("Principal.jl")`
