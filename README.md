@@ -4,5 +4,11 @@ Repositorio con los programas pertinentes para la simulación de un condensado d
 - Split-Step Simetrizado
 - Operadores simplécticos de orden 4
 - Runge-Kutta de orden 4 en imagen de interacción
+La simulación de un BEC se ha realizado con dos implementaciones diferentes:
+- Cálculo de errores del método RK4IP
+- Confirmación de las oscilaciones de forma mediante todos los métodos previamente mencionados
+
 ## Modo de empleo:
-Ejecutar el programa principal situado en el directorio de la implementación concreta que se quiera realizar
+Ejecutar el programa principal situado en el directorio de la implementación concreta que se quiera realizar, por ejemplo:
+Para realizar el cálculo de errores abrir el directorio "Calculo_Error" y ejecutar el programa principal "Principal.jl" mediante el intérprete de Julia, es decir:
+`julia> include("Principal.jl")`
